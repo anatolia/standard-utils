@@ -1,6 +1,7 @@
 using System;
 
 using NUnit.Framework;
+
 using StandardUtils.Helpers;
 
 namespace StandardUtils.Unit.Tests.Helpers
