@@ -8,10 +8,10 @@
     <RepositoryUrl>https://github.com/anatolia/standard-utils</RepositoryUrl>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Version>1.0.0.3</Version>
-    <PackageVersion>1.0.0.3</PackageVersion>
-    <AssemblyVersion>1.0.0.3</AssemblyVersion>
-    <FileVersion>1.0.0.3</FileVersion>
+    <Version>1.0.0.7</Version>
+    <PackageVersion>1.0.0.7</PackageVersion>
+    <AssemblyVersion>1.0.0.7</AssemblyVersion>
+    <FileVersion>1.0.0.7</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
