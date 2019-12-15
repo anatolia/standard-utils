@@ -2,10 +2,18 @@ using System;
 
 namespace StandardUtils.Models.Shared
 {
-    public abstract class BaseCurrentUser
+    public abstract class BaseCurrentUser<T> where T : BaseCurrentOrganization
     {
-        public BaseCurrentOrganization Organization { get; set; }
-        
+        public T Organization { get; set; }
+        public long OrganizationId
+        {
+            get { return Organization.Id; }
+        }
+        public Guid OrganizationUid
+        {
+            get { return Organization.Uid; }
+        }
+
         public long Id { get; set; }
         public Guid Uid { get; set; }
         public string Name { get; set; }
